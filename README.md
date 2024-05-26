@@ -12,10 +12,6 @@ I will be utilizing Perlin noise and randomness techniques to convey my understa
 ## *Dynamic change:*
 I wanted to express the city's changing from morning to night and translate it into the changing of the universe, just as Piet Mondrian explores the harmony and order of the town and the universe. To show the alternation of day and night and the integration and renewal of the city, the image will gradually change from a white background to black. Inspired by Yayoi Kusama's Infinity Mirrored Room, she creates a sense of endless space through infinite reflections and repetitive dots, where the viewer enters and feels like they are in an infinite universe. Therefore, I will blur the rectangles representing roads and vehicles in the original work and turn them into circles, presenting the effect of light and shadow and particles, as if it were a city at night.
 
-# Images
-from webpage
-![Yayoi Kusama's Infinity Mirror Rooms](https://www.thebroad.org/visit/mirror-rooms)
-
 ## *Interactive Design:*
 Using keyboard click responses, users can interactively change the position and color of the color blocks to experience the dynamic changes in Mondrian style. The keyboard "G" key is used to increase the interactivity and dynamism of the artwork. At night, the lighted circles of vehicles will begin to gather and disperse, as if in a universe with a big bang. The city is like the universe; the cars, roads, and people are like the planets in the universe, and the world is going round and round again and again. Finally, the image will slowly rise with yellow, red, and blue dots, returning to the simple three primary colors, expressing a sense of returning to the beginning to explore and express the harmony and order of the spiritual world.
 
@@ -65,6 +61,8 @@ Constructor: initialize the position, radius and Perlin noise offset of the circ
 draw method: draw the circle.
 update method: update the position of the circle with Perlin noise.
 
+# Images Links
+[Yayoi Kusama's Infinity Mirror Rooms](https://www.thebroad.org/visit/mirror-rooms)
 
 ## Header
 # **Hola**
