@@ -1,5 +1,5 @@
 # WSHI0781_9103_Final
-# Creative Ideas:
+# Creative Ideas
 ## *Inspiration:*
 Piet Mondrian's work is inspired by the urban rhythms and energy of New York with its unique geometric abstract style and vibrant colors, which I will use as inspiration for my secondary work using p5.js. I hope to present an exceptional understanding of the modern city in digital media that expresses its energy, complexity, and constant iteration. This project pays homage to Piet Mondrian's artistic style and gives it new life and expression through modern technology.
 
@@ -15,10 +15,56 @@ I wanted to express the city's changing from morning to night and translate it i
 ## *Interactive Design:*
 Using keyboard click responses, users can interactively change the position and color of the color blocks to experience the dynamic changes in Mondrian style. The keyboard "G" key is used to increase the interactivity and dynamism of the artwork. At night, the lighted circles of vehicles will begin to gather and disperse, as if in a universe with a big bang. The city is like the universe; the cars, roads, and people are like the planets in the universe, and the world is going round and round again and again. Finally, the image will slowly rise with yellow, red, and blue dots, returning to the simple three primary colors, expressing a sense of returning to the beginning to explore and express the harmony and order of the spiritual world.
 
+# Programming concepts used
+1. Variable declaration and initialization: Declare variables globally to store images, segments, circles, and control flags.
+2. Functions: Use the preload, setup, and draw functions to load resources, initialize, and draw content.
+3. Interaction Handling: Use the keyPressed and mousePressed functions to handle user keyboard and mouse events.
+4. Classes and Objects: Define classes to create and manage image segments and circular objects, including constructors and methods.
+5. Perlin Noise: Use the noise function to generate smooth random motion effects.
+6. Array Manipulation: Use arrays to store and manage multiple image segments and circle objects.
+7. Color operations: Get and set colors using the color, fill, red, green, and blue functions.
+8. Linear interpolation (lerp): for smooth aggregation effects.
+9. Random number generation: Use the random function to generate random positions, sizes and colors.
+10. FrameCount: Use frameCount to control how often circles are generated.
+
+# Code Structure
+## *1. Global variable declarations* 
+## *2. (‘preload’)* 
+preloads the image file before the program starts.
+# Code Blocks
+backtick:
+`function preload() {img = loadImage('Piet_Mondrian_Broadway_Boogie_Woogie.jpeg');}`
+## *3. ('setup')* 
+createCanvas: create the canvas.
+img.resize: resize the image to fit the canvas.
+background: sets the initial background color.
+Loop over image segments: breaks the image into smaller pieces and stores them in the segments array.
+## *4. ('draw')* 
+Background Transition: Implement a gradient of the background from white to black.
+Image Segment Drawing: Determines whether to draw image segments or the entire image based on the drawSegments flag.
+Circle drawing and updating: draws and updates the position of yellow, red and blue circles.
+Create New Circle: Timing to create a new circle based on frameCount.
+Perlin Noise Offset: smooth random motion with Perlin noise.
+Cluster Effect: Controls the clustering effect of image segments.
+## *5. ('key/mousePressed')* 
+Toggle drawing mode: Toggle the drawing mode of the image segments and the whole image with the key "1".
+Toggle Gathering Effect: Toggle the gathering effect by pressing "G" or "g" and reset the segments when the gathering is stopped.
+Change segment color: randomly change the color of an image segment when the mouse is clicked on it.
+## *6. (ImageSegment)* 
+Constructor: initialize the position, size, color and other properties of the segment.
+draw method: draw the segment and modify its position and size by Perlin noise and gathering effect.
+startGathering method: start the gathering effect.
+reset method: reset the gathers.
+changeColorRandom method: change the color of the segments randomly.
+## *7. Class Definition Yellow/Red/Blue Circle* 
+Constructor: initialize the position, radius and Perlin noise offset of the circle.
+draw method: draw the circle.
+update method: update the position of the circle with Perlin noise.
+
 
 ## Header
 # **Hola**
-## *Hola in italic*
+## *Global variable declarations*
 *Hola in italic*
 
 Unordered list
