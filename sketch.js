@@ -15,7 +15,7 @@ let bgTransition = 0; // Variable to control background transition
 
 //lets load the image from disk
 function preload() {
-  img = loadImage('Piet_Mondrian Broadway_Boogie_Woogie.jpeg');
+  img = loadImage('Source code image.png');
 }
 
 function setup() {
