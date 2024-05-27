@@ -38,7 +38,7 @@ I tried to manage modularity on top of the source code for post go overall modif
 preloads the image file before the program starts.
 # Code Blocks
 backtick:
-`function preload() {img = loadImage('Piet_Mondrian_Broadway_Boogie_Woogie.jpeg');}`
+`function preload() {img = loadImage('Source code image.png');}`
 ## *3. ('setup')* 
 createCanvas: create the canvas.
 img.resize: resize the image to fit the canvas.
