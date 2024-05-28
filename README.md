@@ -16,7 +16,7 @@ I wanted to express the city's changing from morning to night and translate it i
 Using keyboard click responses, users can interactively change the position and color of the color blocks to experience the dynamic changes in Mondrian style. The keyboard "G" key is used to increase the interactivity and dynamism of the artwork. At night, the lighted circles of vehicles will begin to gather and disperse, as if in a universe with a big bang. The city is like the universe; the cars, roads, and people are like the planets in the universe, and the world is going round and round again and again. Finally, the image will slowly rise with yellow, red, and blue dots, returning to the simple three primary colors, expressing a sense of returning to the beginning to explore and express the harmony and order of the spiritual world.
 
 # Source code changes
-I tried to manage modularity on top of the source code for post go overall modification, but the iterative process didn't work. The source code created three different classes as different layers, but I tried to modify him as a whole. So I saved the existing created code as a photo for later writing, please go through the link for the exact iteration process.
+I tried to manage modularity on top of the source code for post go overall modification, but the iterative process didn't work. The source code created three different classes as different layers, but I tried to modify it as a whole. So I saved the existing created code as a photo for later writing, please go through the link for the exact iteration process.
   # Links
   [Source code iterative](https://www.figma.com/board/Pf0uPFYU1Q2Y1q3jysziFj/Source-code-modification?node-id=0-1&t=BCSOLV88MO6M7wCX-1)
 
@@ -68,40 +68,3 @@ update method: update the position of the circle with Perlin noise.
 
 # Images Links
 [Yayoi Kusama's Infinity Mirror Rooms](https://www.thebroad.org/visit/mirror-rooms)
-
-## Header
-# **Hola**
-## *Global variable declarations*
-*Hola in italic*
-
-Unordered list
-- item 1
- - Subitem
-  - ## sub
-
-  1. Number1
-  2. Number 2
-
-  # Links
-  [What is github](https://www.youtube.com/watch?v=pBy1zgt0XPc)
-
-# Images
-from webpage
-
-![A cat](https://placekitten.com/200/300)
-
-# Images
-custom
-![A cat](readmeImages/karen.jpg)
-
-# Code Blocks
-backtick:
-`print("Hello world")`
-
-```
-function helloWorld() {
-console.log("Hello, world!");
-}
-```
-# Blockquotes
-> This is a blockquote
