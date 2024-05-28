@@ -12,7 +12,6 @@ let noiseScale = 0.02; // Scale for Perlin noise
 let gathering = false; // Flag to control the gathering effect
 let bgTransition = 0; // Variable to control background transition
 
-
 //lets load the image from disk
 function preload() {
   img = loadImage('Source code image.png');
