@@ -68,3 +68,59 @@ update method: update the position of the circle with Perlin noise.
 
 # Images Links
 [Yayoi Kusama's Infinity Mirror Rooms](https://www.thebroad.org/visit/mirror-rooms)
+[Piet Mondrian. Broadway Boogie Woogie. 1942-43](https://www.moma.org/audio/playlist/296/196)
+
+# Code using & Reference
+
+[loop](https://p5js.org/examples/structure-loop.html)
+[coordinates](https://p5js.org/examples/structure-coordinates.html)
+[function](https://p5js.org/examples/structure-functions.html)
+[set up and draw](https://p5js.org/examples/structure-setup-and-draw.html)
+[shape primitives](https://p5js.org/examples/form-shape-primitives.html)
+[ture and false](https://p5js.org/examples/data-true-and-false.html)
+[variable scope](https://p5js.org/examples/data-variable-scope.html)
+[numbers](https://p5js.org/examples/data-numbers.html)
+[array](https://p5js.org/examples/arrays-array.html)
+[iteration](https://p5js.org/examples/control-iteration.html)
+[embedded iteration](https://p5js.org/examples/control-embedded-iteration.html)
+[conditionals 1](https://p5js.org/examples/control-conditionals-1.html)
+[conditionals 2](https://p5js.org/examples/control-conditionals-2.html)
+[logical operators](https://p5js.org/examples/control-logical-operators.html)
+[logical operators 2](https://p5js.org/examples/control-logical-operators-2.html)
+[load and display image](https://p5js.org/examples/image-load-and-display-image.html)
+[random](https://p5js.org/examples/math-random.html)
+1. Randomizing Segment Radius
+2. Random Start Time for Gathering Effect
+3. Random Offsets for Perlin Noise
+[increment decrement](https://p5js.org/examples/math-increment-decrement.html)
+1. Incrementing bgTransition, xOffset, yOffset,zOffset, this.gatherTime in the ImageSegment class
+2. Decrementing this.gatherStartTime in the ImageSegment class
+[Operator Precedence](https://p5js.org/examples/math-operator-precedence.html)
+1. Combining Noise and Arithmetic Operations
+2. Logical Operators with Comparison
+[distance](https://p5js.org/examples/math-distance-1d.html)
+1. Distance Calculation for Gathering Effect
+2. Mouse Interaction with Segments
+[Double Random](https://p5js.org/examples/math-double-random.html)
+1. Creating Circles with Random Initial Positions and Sizes
+2. Randomizing Segment Color Components
+[noise 1d](https://p5js.org/examples/math-noise1d.html)
+1. When updating the positions and sizes of the segments and circles, the code uses 1D Perlin noise to generate smooth random values that change over time.
+[noise 2d](https://p5js.org/examples/math-noise2d.html)
+1. Achieved by combining 1D noise values for both X and Y positions, creating a smooth, continuous effect across two dimensions.
+[Objects](https://p5js.org/examples/objects-objects.html)
+1. Class Definitions, such as image segments and colored circles. 
+2. Creating and Managing Objects in the setup() and draw() functions
+3. Response to events like key presses and mouse presses.
+[Multiple Objects](https://p5js.org/examples/objects-multiple-objects.html)
+1. Creating Multiple Instances of Objects
+2. Arrays to Manage Multiple Objects
+3. Looping Through Arrays to Update and Draw Objects
+[Array of Objects](https://p5js.org/examples/objects-array-of-objects.html)
+1. Defines arrays to hold instances of ImageSegment, YellowCircle, RedCircle, and BlueCircle.
+[keyboard](https://p5js.org/examples/input-keyboard.html)
+1. The keyPressed() function toggles between drawing segments and the full image when the "1" key is pressed.
+2. The same function also toggles the gathering effect when the "G" or "g" key is pressed.
+[Mouse Press](https://p5js.org/examples/input-mouse-press.html)
+1. Change Segment Color on Mouse Press
+
