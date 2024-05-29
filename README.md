@@ -71,7 +71,7 @@ update method: update the position of the circle with Perlin noise.
 [Piet Mondrian. Broadway Boogie Woogie. 1942-43](https://www.moma.org/audio/playlist/296/196)
 
 # Code using & Reference
-
+[Simple Shapes](https://p5js.org/examples/hello-p5-simple-shapes.html)
 [loop](https://p5js.org/examples/structure-loop.html)
 [coordinates](https://p5js.org/examples/structure-coordinates.html)
 [function](https://p5js.org/examples/structure-functions.html)
@@ -123,4 +123,10 @@ update method: update the position of the circle with Perlin noise.
 2. The same function also toggles the gathering effect when the "G" or "g" key is pressed.
 [Mouse Press](https://p5js.org/examples/input-mouse-press.html)
 1. Change Segment Color on Mouse Press
+[Interactivity 1](https://p5js.org/examples/hello-p5-interactivity-1.html)
+1. Detecting Mouse Press on Segments
+2. Changing the Color of a Segment
+[animation](https://p5js.org/examples/hello-p5-animation.html)
+1. where circles (represented by instances of the YellowCircle, RedCircle, and BlueCircle classes) moved base on perlin noise.
+
 
