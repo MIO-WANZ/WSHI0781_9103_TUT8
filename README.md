@@ -89,43 +89,43 @@ update method: update the position of the circle with Perlin noise.
 16. [logical operators 2](https://p5js.org/examples/control-logical-operators-2.html)
 17. [load and display image](https://p5js.org/examples/image-load-and-display-image.html)
 18. [random](https://p5js.org/examples/math-random.html)
-  a. Randomizing Segment Radius  
-  b. Random Start Time for Gathering Effect
-  c. Random Offsets for Perlin Noise
+  a. Randomizing Segment Radius. 
+  b. Random Start Time for Gathering Effect.
+  c. Random Offsets for Perlin Noise.
 19. [increment decrement](https://p5js.org/examples/math-increment-decrement.html)
-  a. Incrementing bgTransition, xOffset, yOffset,zOffset, this.gatherTime in the ImageSegment class
-  b. Decrementing this.gatherStartTime in the ImageSegment class
+  a. Incrementing bgTransition, xOffset, yOffset,zOffset, this.gatherTime in the ImageSegment class.
+  b. Decrementing this.gatherStartTime in the ImageSegment class.
 20. [Operator Precedence](https://p5js.org/examples/math-operator-precedence.html) 
-  a. Combining Noise and Arithmetic Operations
-  b. Logical Operators with Comparison
+  a. Combining Noise and Arithmetic Operations.
+  b. Logical Operators with Comparison.
 21. [distance](https://p5js.org/examples/math-distance-1d.html)
-  a. Distance Calculation for Gathering Effect
-  b. Mouse Interaction with Segments
+  a. Distance Calculation for Gathering Effect.
+  b. Mouse Interaction with Segments.
 22. [Double Random](https://p5js.org/examples/math-double-random.html)
-  a. Creating Circles with Random Initial Positions and Sizes
-  b. Randomizing Segment Color Components
+  a. Creating Circles with Random Initial Positions and Sizes.
+  b. Randomizing Segment Color Components.
 23. [noise 1d](https://p5js.org/examples/math-noise1d.html)
   a. When updating the positions and sizes of the segments and circles, the code uses 1D Perlin noise to generate smooth random values that change over time.
-24.[noise 2d](https://p5js.org/examples/math-noise2d.html)
+24. [noise 2d](https://p5js.org/examples/math-noise2d.html)
   a. Achieved by combining 1D noise values for both X and Y positions, creating a smooth, continuous effect across two dimensions.
 25. [Objects](https://p5js.org/examples/objects-objects.html)
   a. Class Definitions, such as image segments and colored circles. 
-  b. Creating and Managing Objects in the setup() and draw() functions
+  b. Creating and Managing Objects in the setup() and draw() functions.
   c. Response to events like key presses and mouse presses.
 26. [Multiple Objects](https://p5js.org/examples/objects-multiple-objects.html)
-  a. Creating Multiple Instances of Objects
-  b. Arrays to Manage Multiple Objects
-  c. Looping Through Arrays to Update and Draw Objects
+  a. Creating Multiple Instances of Objects.
+  b. Arrays to Manage Multiple Objects.
+  c. Looping Through Arrays to Update and Draw Objects.
 27. [Array of Objects](https://p5js.org/examples/objects-array-of-objects.html)
   a. Defines arrays to hold instances of ImageSegment, YellowCircle, RedCircle, and BlueCircle.
 28. [keyboard](https://p5js.org/examples/input-keyboard.html)
   a. The keyPressed() function toggles between drawing segments and the full image when the "1" key is pressed.
   b. The same function also toggles the gathering effect when the "G" or "g" key is pressed.
 29. [Mouse Press](https://p5js.org/examples/input-mouse-press.html)
-  a. Change Segment Color on Mouse Press
+  a. Change Segment Color on Mouse Press.
 30. [Interactivity 1](https://p5js.org/examples/hello-p5-interactivity-1.html)
-  a. Detecting Mouse Press on Segments
-  b. Changing the Color of a Segment
+  a. Detecting Mouse Press on Segments.
+  b. Changing the Color of a Segment.
 31. [animation](https://p5js.org/examples/hello-p5-animation.html)
   a. where circles (represented by instances of the YellowCircle, RedCircle, and BlueCircle classes) moved base on perlin noise.
 
